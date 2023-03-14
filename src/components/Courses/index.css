@@ -1,0 +1,25 @@
+.corse-item-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+.corses-logo {
+  height: 80px;
+  width: 80px;
+}
+
+.heading {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #1e293b;
+}
+.links {
+  text-decoration: none;
+}

@@ -1,0 +1,36 @@
+.item-details-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  max-width: 800px;
+}
+.image {
+  height: 280px;
+  width: 300px;
+}
+.name-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  padding-bottom: 20px;
+}
+.name-heading {
+  display: flex;
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #1e293b;
+  align-self: flex-start;
+  margin-top: 0;
+  padding-top: 0;
+}
+.name-description {
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #64748b;
+}
